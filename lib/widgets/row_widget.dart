@@ -16,6 +16,7 @@ class RowWidget extends StatelessWidget {
             ),
             Text("Two", style: TextStyle(fontSize: 25)),
             Text("Three", style: TextStyle(fontSize: 25)),
+            Text("Four", style: TextStyle(fontSize: 25)),
           ],
         ),
       ),
