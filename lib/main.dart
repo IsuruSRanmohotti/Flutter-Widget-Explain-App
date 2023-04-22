@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:widget_explain_app/screens/googlefont_text.dart';
 
-import 'widgets/image_widget.dart';
+import 'widgets/textfield_widge2t.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +14,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Flutter',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ImageWidget(),
+      home: const TextFieldWidget(),
     );
   }
 }
