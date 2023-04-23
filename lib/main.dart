@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widget_explain_app/screens/googlefont_text.dart';
 
-import 'widgets/textfield_widge2t.dart';
+import 'screens/solo_adventure.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TextFieldWidget(),
+      home: const SoloAdventure(),
     );
   }
 }

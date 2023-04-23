@@ -40,7 +40,7 @@ class _GoogleFontTextState extends State<GoogleFontText> {
               Text(
                 textController.text,
                 style: GoogleFonts.aclonica(fontSize: 50, color: Colors.green),
-              )
+              ),
             ],
           ),
         ),
