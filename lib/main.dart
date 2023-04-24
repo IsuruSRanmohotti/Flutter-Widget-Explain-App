@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screens/navigator_pages/screen1.dart';
+import 'screens/generate_widget_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ScreenOne(),
+      home: const GenerateWidgetList(),
     );
   }
 }
